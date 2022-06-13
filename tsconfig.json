@@ -1,0 +1,11 @@
+{
+    "compilerOptions": {
+        "module": "amd",
+        "target": "ES6",
+        "outFile": "script.js",
+        "rootDir": "src",
+    },
+    "files": [
+        "./src/index.ts"
+    ]
+}
