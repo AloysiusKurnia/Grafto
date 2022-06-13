@@ -6,6 +6,8 @@ export class StatusBar extends View {
         super();
         this.elem = document.createElement('div');
         this.elem.id = 'status-bar';
+
+        this.elem.innerText = 'Lorem ipsum';
     }
 
     getElement(): Element {

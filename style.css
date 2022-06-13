@@ -1,6 +1,7 @@
 /* 0. Global settings */
 
-html, body {
+html,
+body {
     height: 100%;
 }
 
@@ -10,14 +11,22 @@ body {
 
 /* 1. Layout */
 
-#tool-bar {
+#app {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
 
+#tool-bar {
+    border-bottom: 1px solid black;
+    height: 10px;
 }
 
 #canvas {
-
+    flex: 1 1 auto;
 }
 
 #status-bar {
-    
+    border-top: 1px solid black;
 }
