@@ -1,5 +1,8 @@
 import { View } from "../view";
 
+/**
+ * The statusbar.
+ */
 export class StatusBar extends View {
     elem: HTMLDivElement;
     constructor() {
