@@ -3,10 +3,15 @@
 html,
 body {
     height: 100%;
+    font-family: sans-serif;
 }
 
 body {
     margin: 0;
+}
+
+div {
+    user-select: none;
 }
 
 /* 1. Layout */
@@ -20,7 +25,6 @@ body {
 
 #tool-bar {
     border-bottom: 1px solid black;
-    height: 10px;
 }
 
 #canvas {
@@ -29,4 +33,6 @@ body {
 
 #status-bar {
     border-top: 1px solid black;
+    padding: 10px 5px;
+    font-size: 11pt;
 }

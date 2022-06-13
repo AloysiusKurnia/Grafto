@@ -7,7 +7,8 @@ export class StatusBar extends View {
         this.elem = document.createElement('div');
         this.elem.id = 'status-bar';
 
-        this.elem.innerText = 'Lorem ipsum';
+        this.elem.innerText = 'Shift-click on an empty space to add a new node. '
+            + 'Shift-click and drag on a node to add a new edge.';
     }
 
     getElement(): Element {
