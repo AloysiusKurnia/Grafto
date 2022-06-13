@@ -1,4 +1,11 @@
-/* 0. Global settings */
+/* TABLE OF CONTENTS
+====================
+- Global settings
+- Layout
+- Canvas components
+ */
+
+/* > Global settings */
 
 html,
 body {
@@ -14,7 +21,7 @@ div {
     user-select: none;
 }
 
-/* 1. Layout */
+/* > Layout */
 
 #app {
     display: flex;
@@ -36,3 +43,5 @@ div {
     padding: 10px 5px;
     font-size: 11pt;
 }
+
+/* > Canvas components */
