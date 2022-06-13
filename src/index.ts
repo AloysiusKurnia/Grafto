@@ -1,3 +1,5 @@
+import { App } from "./view/app-view";
+
 export = function main() {
-    console.log('Hello, world!');
+    new App();
 };
